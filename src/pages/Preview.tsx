@@ -30,7 +30,6 @@ export default function Preview() {
           <Link to={`/customize/${t.id}`} className={`${btn.small} bg-pine text-white hover:bg-pine-2`} onClick={() => track('template_select', { template: t.id })}><Palette size={16} aria-hidden /> Customize this template</Link>
         </div>
       </div>
-      <p className="bg-amber/25 px-4 py-1.5 text-center text-xs text-amber-ink">Sample preview with fictional business, people and testimonials. Buttons and forms are interactive demos; nothing is sent.</p>
       <main id="main" className="min-h-0 flex-1"><h1 className="sr-only">{`${t.name} website preview`}</h1><DeviceFrame src={`/site/${t.id}`} device={device} size={size} title={`${t.name} website preview`} /></main>
     </div>
   )

@@ -70,7 +70,6 @@ export function Footer() {
           </ul>
         </nav>
       </div>
-      <p className="mx-auto max-w-6xl border-t border-white/10 px-5 py-5 text-xs leading-relaxed text-[#f6f0e6]/60">Demo mode: requests stay in your browser and nothing is published or sent. Sample businesses, people, phone numbers and testimonials are fictional. Photos via Unsplash, video via Pexels.</p>
     </footer>
   )
 }
